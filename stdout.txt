@@ -1,0 +1,224 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.challenge:spring-http >----------------------
+[INFO] Building spring-oauth2 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-http ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-http ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /home/jorge/codenation/java-12/target/classes
+[INFO] /home/jorge/codenation/java-12/src/main/java/com/challenge/config/SecurityConfig.java: /home/jorge/codenation/java-12/src/main/java/com/challenge/config/SecurityConfig.java uses or overrides a deprecated API.
+[INFO] /home/jorge/codenation/java-12/src/main/java/com/challenge/config/SecurityConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-http ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-http ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/jorge/codenation/java-12/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-http ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.suite.ChallengeTestSuite
+17:55:26.377 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.challenge.suite.Oauth2Test]
+17:55:26.386 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:55:26.399 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:55:26.443 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.challenge.suite.Oauth2Test] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:55:26.465 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.challenge.suite.Oauth2Test], using SpringBootContextLoader
+17:55:26.473 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.suite.Oauth2Test]: class path resource [com/challenge/suite/Oauth2Test-context.xml] does not exist
+17:55:26.474 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.suite.Oauth2Test]: class path resource [com/challenge/suite/Oauth2TestContext.groovy] does not exist
+17:55:26.474 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.challenge.suite.Oauth2Test]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:55:26.635 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.challenge.suite.Oauth2Test]
+17:55:26.835 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.challenge.suite.Oauth2Test]: using defaults.
+17:55:26.837 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+17:55:26.911 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d9e68d0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@42e99e4a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14dd9eb7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52e6fdee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c80d78a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@62150f9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a451d4d, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7fa98a66, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@15ff3e9e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5fdcaa40, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6dc17b83, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e0826e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@32eff876, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8dbdac1]
+17:55:26.923 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+17:55:26.925 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+17:55:26.931 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+17:55:26.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+17:55:26.938 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+17:55:26.952 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+17:55:26.957 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+17:55:26.960 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+17:55:26.977 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5876a9af testClass = Oauth2Test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7ec7ffd3 testClass = Oauth2Test, locations = '{}', classes = '{class com.challenge.SpringOauth2Application, class com.challenge.SpringOauth2Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7cbd213e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@569cfc36, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7e0e6aa2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4d1b0d2a, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@710726a3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+17:55:26.980 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+17:55:26.980 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+17:55:27.057 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2020-03-28 17:55:29.065  INFO 20841 --- [           main] com.challenge.suite.Oauth2Test           : Starting Oauth2Test on master with PID 20841 (started by jorge in /home/jorge/codenation/java-12)
+2020-03-28 17:55:29.067  INFO 20841 --- [           main] com.challenge.suite.Oauth2Test           : No active profile set, falling back to default profiles: default
+2020-03-28 17:55:30.762  INFO 20841 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-28 17:55:30.917  INFO 20841 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 6 repository interfaces.
+2020-03-28 17:55:32.275  INFO 20841 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d98c7922] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-28 17:55:32.875  INFO 20841 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-28 17:55:33.749  INFO 20841 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-28 17:55:33.894  INFO 20841 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-28 17:55:34.018  INFO 20841 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-28 17:55:34.021  INFO 20841 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-28 17:55:34.250  INFO 20841 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-28 17:55:34.507  INFO 20841 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-03-28 17:55:36.336 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table acceleration if exists
+Hibernate: drop table acceleration if exists
+2020-03-28 17:55:36.340 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table candidate if exists
+Hibernate: drop table candidate if exists
+2020-03-28 17:55:36.341 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table challenge if exists
+Hibernate: drop table challenge if exists
+2020-03-28 17:55:36.341 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table company if exists
+Hibernate: drop table company if exists
+2020-03-28 17:55:36.343 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table submission if exists
+Hibernate: drop table submission if exists
+2020-03-28 17:55:36.344 DEBUG 20841 --- [           main] org.hibernate.SQL                        : drop table users if exists
+Hibernate: drop table users if exists
+2020-03-28 17:55:36.349 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table acceleration (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, challenge_id bigint, primary key (id))
+Hibernate: create table acceleration (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, challenge_id bigint, primary key (id))
+2020-03-28 17:55:36.368 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table candidate (created_at timestamp, status integer not null, user_id bigint not null, company_id bigint not null, acceleration_id bigint not null, primary key (acceleration_id, company_id, user_id))
+Hibernate: create table candidate (created_at timestamp, status integer not null, user_id bigint not null, company_id bigint not null, acceleration_id bigint not null, primary key (acceleration_id, company_id, user_id))
+2020-03-28 17:55:36.374 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table challenge (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+Hibernate: create table challenge (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+2020-03-28 17:55:36.376 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table company (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+Hibernate: create table company (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+2020-03-28 17:55:36.378 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table submission (created_at timestamp, score float not null, user_id bigint not null, challenge_id bigint not null, primary key (challenge_id, user_id))
+Hibernate: create table submission (created_at timestamp, score float not null, user_id bigint not null, challenge_id bigint not null, primary key (challenge_id, user_id))
+2020-03-28 17:55:36.379 DEBUG 20841 --- [           main] org.hibernate.SQL                        : create table users (id bigint generated by default as identity, created_at timestamp, email varchar(100) not null, full_name varchar(100) not null, nickname varchar(50) not null, password varchar(255) not null, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, created_at timestamp, email varchar(100) not null, full_name varchar(100) not null, nickname varchar(50) not null, password varchar(255) not null, primary key (id))
+2020-03-28 17:55:36.382 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table acceleration add constraint FK6bucejmky2hqhcmj6vexf9tkp foreign key (challenge_id) references challenge
+Hibernate: alter table acceleration add constraint FK6bucejmky2hqhcmj6vexf9tkp foreign key (challenge_id) references challenge
+2020-03-28 17:55:36.389 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table candidate add constraint FKc23nbdgfce6rnt56ofltvxu71 foreign key (user_id) references users
+Hibernate: alter table candidate add constraint FKc23nbdgfce6rnt56ofltvxu71 foreign key (user_id) references users
+2020-03-28 17:55:36.393 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table candidate add constraint FK5859evebv1forwxno1dj2x73m foreign key (company_id) references company
+Hibernate: alter table candidate add constraint FK5859evebv1forwxno1dj2x73m foreign key (company_id) references company
+2020-03-28 17:55:36.396 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table candidate add constraint FK9wdl31wkstau7n5wckm5prkdg foreign key (acceleration_id) references acceleration
+Hibernate: alter table candidate add constraint FK9wdl31wkstau7n5wckm5prkdg foreign key (acceleration_id) references acceleration
+2020-03-28 17:55:36.398 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table submission add constraint FKioe5xddu66v3aktrkyxj4vfx9 foreign key (user_id) references users
+Hibernate: alter table submission add constraint FKioe5xddu66v3aktrkyxj4vfx9 foreign key (user_id) references users
+2020-03-28 17:55:36.401 DEBUG 20841 --- [           main] org.hibernate.SQL                        : alter table submission add constraint FK5w6mihcq53t1j5x2cmgy640cm foreign key (challenge_id) references challenge
+Hibernate: alter table submission add constraint FK5w6mihcq53t1j5x2cmgy640cm foreign key (challenge_id) references challenge
+2020-03-28 17:55:36.406  INFO 20841 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/jorge/codenation/java-12/target/classes/import.sql)'
+2020-03-28 17:55:36.678 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into users (id, full_name, email, nickname, password, created_at) values (6001, 'Bruno', 'bruno@gmail.com', 'nick_bruno', '123456', now())
+Hibernate: insert into users (id, full_name, email, nickname, password, created_at) values (6001, 'Bruno', 'bruno@gmail.com', 'nick_bruno', '123456', now())
+2020-03-28 17:55:36.684 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into users (id, full_name, email, nickname, password, created_at) values (6002, 'Fernando', 'fernando@email.com', 'nick_fernando', '123456', now())
+Hibernate: insert into users (id, full_name, email, nickname, password, created_at) values (6002, 'Fernando', 'fernando@email.com', 'nick_fernando', '123456', now())
+2020-03-28 17:55:36.686 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into users (id, full_name, email, nickname, password, created_at) values (6003, 'Marcela', 'marcela@email.com', 'nick_marcela', '123456', now())
+Hibernate: insert into users (id, full_name, email, nickname, password, created_at) values (6003, 'Marcela', 'marcela@email.com', 'nick_marcela', '123456', now())
+2020-03-28 17:55:36.687 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into users (id, full_name, email, nickname, password, created_at) values (6004, 'Geovanna', 'geovanna@email.com', 'nick_geovanna', '123456', now())
+Hibernate: insert into users (id, full_name, email, nickname, password, created_at) values (6004, 'Geovanna', 'geovanna@email.com', 'nick_geovanna', '123456', now())
+2020-03-28 17:55:36.688 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into users (id, full_name, email, nickname, password, created_at) values (6005, 'Alisson', 'alisson@email.com', 'nick_alisson', '123456', now())
+Hibernate: insert into users (id, full_name, email, nickname, password, created_at) values (6005, 'Alisson', 'alisson@email.com', 'nick_alisson', '123456', now())
+2020-03-28 17:55:36.690 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into company (id, created_at, name, slug) VALUES (5001, now(), 'Blue Company', 'Blue Slug')
+Hibernate: insert into company (id, created_at, name, slug) VALUES (5001, now(), 'Blue Company', 'Blue Slug')
+2020-03-28 17:55:36.692 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into company (id, created_at, name, slug) VALUES (5002, now(), 'Green Company', 'Green Slug')
+Hibernate: insert into company (id, created_at, name, slug) VALUES (5002, now(), 'Green Company', 'Green Slug')
+2020-03-28 17:55:36.695 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into challenge (id, created_at, name, slug) values (1001, now(), 'Challenge A', 'The A Slug')
+Hibernate: insert into challenge (id, created_at, name, slug) values (1001, now(), 'Challenge A', 'The A Slug')
+2020-03-28 17:55:36.696 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into challenge (id, created_at, name, slug) values (1002, now(), 'Challenge B', 'The B Slug')
+Hibernate: insert into challenge (id, created_at, name, slug) values (1002, now(), 'Challenge B', 'The B Slug')
+2020-03-28 17:55:36.698 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into challenge (id, created_at, name, slug) values (1003, now(), 'Challenge C', 'The C Slug')
+Hibernate: insert into challenge (id, created_at, name, slug) values (1003, now(), 'Challenge C', 'The C Slug')
+2020-03-28 17:55:36.699 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into acceleration (id, created_at, name, slug, challenge_id) values (2001, now(), 'Metallica Acceleration', 'Black Album', 1001)
+Hibernate: insert into acceleration (id, created_at, name, slug, challenge_id) values (2001, now(), 'Metallica Acceleration', 'Black Album', 1001)
+2020-03-28 17:55:36.700 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into acceleration (id, created_at, name, slug, challenge_id) values (2002, now(), 'Slipknot Acceleration', 'IOWA', 1003)
+Hibernate: insert into acceleration (id, created_at, name, slug, challenge_id) values (2002, now(), 'Slipknot Acceleration', 'IOWA', 1003)
+2020-03-28 17:55:36.709 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6001, 5001, 2001)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6001, 5001, 2001)
+2020-03-28 17:55:36.712 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6002, 5001, 2001)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6002, 5001, 2001)
+2020-03-28 17:55:36.714 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6003, 5001, 2001)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6003, 5001, 2001)
+2020-03-28 17:55:36.716 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6004, 5002, 2002)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6004, 5002, 2002)
+2020-03-28 17:55:36.718 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6005, 5002, 2002)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6005, 5002, 2002)
+2020-03-28 17:55:36.720 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6003, 5002, 2002)
+Hibernate: insert into candidate (created_at, status, user_id, company_id, acceleration_id) values (now(), 1, 6003, 5002, 2002)
+2020-03-28 17:55:36.722 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into submission (created_at, score, user_id, challenge_id) values (now(), 99, 6001, 1003)
+Hibernate: insert into submission (created_at, score, user_id, challenge_id) values (now(), 99, 6001, 1003)
+2020-03-28 17:55:36.724 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into submission (created_at, score, user_id, challenge_id) values (now(), 67, 6002, 1003)
+Hibernate: insert into submission (created_at, score, user_id, challenge_id) values (now(), 67, 6002, 1003)
+2020-03-28 17:55:36.726 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into submission (created_at, score, user_id, challenge_id) values (now(), 98, 6003, 1003)
+Hibernate: insert into submission (created_at, score, user_id, challenge_id) values (now(), 98, 6003, 1003)
+2020-03-28 17:55:36.728 DEBUG 20841 --- [           main] org.hibernate.SQL                        : insert into submission (created_at, score, user_id, challenge_id) values (now(), 67, 6004, 1002)
+Hibernate: insert into submission (created_at, score, user_id, challenge_id) values (now(), 67, 6004, 1002)
+2020-03-28 17:55:36.732  INFO 20841 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 17:55:38.086  INFO 20841 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-28 17:55:39.803  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/'], []
+2020-03-28 17:55:39.803  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/user'], []
+2020-03-28 17:55:39.803  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/h2/**'], []
+2020-03-28 17:55:39.995  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11120583, org.springframework.security.web.context.SecurityContextPersistenceFilter@520ee6b3, org.springframework.security.web.header.HeaderWriterFilter@5ebf776c, org.springframework.security.web.authentication.logout.LogoutFilter@40aad17d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@571db8b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a499d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@720ffab4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bf0c70d, org.springframework.security.web.session.SessionManagementFilter@50c2ef56, org.springframework.security.web.access.ExceptionTranslationFilter@ec3944, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a8e44fe]
+2020-03-28 17:55:40.036  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@7bef7505, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@568ef502, org.springframework.security.web.context.SecurityContextPersistenceFilter@df432ec, org.springframework.security.web.header.HeaderWriterFilter@999cd18, org.springframework.security.web.authentication.logout.LogoutFilter@28295554, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@787a0fd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6144e499, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f204a4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f05595, org.springframework.security.web.session.SessionManagementFilter@dd060be, org.springframework.security.web.access.ExceptionTranslationFilter@58068b40, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41492479]
+2020-03-28 17:55:40.050  INFO 20841 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a5d2041, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c5e4bfa, org.springframework.security.web.header.HeaderWriterFilter@47ae6c18, org.springframework.security.web.csrf.CsrfFilter@62a41279, org.springframework.security.web.authentication.logout.LogoutFilter@74e2cfc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@552cb0d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61d6c8c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cacc87, org.springframework.security.web.session.SessionManagementFilter@3835b281, org.springframework.security.web.access.ExceptionTranslationFilter@2e66f1bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fdaef04]
+2020-03-28 17:55:40.757  INFO 20841 --- [           main] a.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = codenation
+security.oauth2.client.client-secret = ****
+
+
+2020-03-28 17:55:41.686  INFO 20841 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 17:55:41.758  WARN 20841 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-28 17:55:43.628  INFO 20841 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-28 17:55:44.137  INFO 20841 --- [           main] com.challenge.suite.Oauth2Test           : Started Oauth2Test in 17.066 seconds (JVM running for 18.713)
+2020-03-28 17:55:44.585  INFO 20841 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-03-28 17:55:44.585  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-03-28 17:55:44.634  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 49 ms
+2020-03-28 17:55:44.898  INFO 20841 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-03-28 17:55:44.898  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-03-28 17:55:44.916  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2020-03-28 17:55:45.068  INFO 20841 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-03-28 17:55:45.069  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-03-28 17:55:45.076  INFO 20841 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2020-03-28 17:55:45.240 DEBUG 20841 --- [           main] org.hibernate.SQL                        : select user0_.id as id1_5_, user0_.created_at as created_2_5_, user0_.email as email3_5_, user0_.full_name as full_nam4_5_, user0_.nickname as nickname5_5_, user0_.password as password6_5_ from users user0_ where user0_.email=?
+Hibernate: select user0_.id as id1_5_, user0_.created_at as created_2_5_, user0_.email as email3_5_, user0_.full_name as full_nam4_5_, user0_.nickname as nickname5_5_, user0_.password as password6_5_ from users user0_ where user0_.email=?
+2020-03-28 17:55:45.265 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [bruno@gmail.com]
+2020-03-28 17:55:45.288 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_5_] : [BIGINT]) - [6001]
+2020-03-28 17:55:45.297 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([created_2_5_] : [TIMESTAMP]) - [2020-03-28T17:55:45.056]
+2020-03-28 17:55:45.299 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email3_5_] : [VARCHAR]) - [bruno@gmail.com]
+2020-03-28 17:55:45.299 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([full_nam4_5_] : [VARCHAR]) - [Bruno]
+2020-03-28 17:55:45.300 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([nickname5_5_] : [VARCHAR]) - [nick_bruno]
+2020-03-28 17:55:45.301 TRACE 20841 --- [           main] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password6_5_] : [VARCHAR]) - [123456]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.967 s - in com.challenge.suite.ChallengeTestSuite
+2020-03-28 17:55:46.433  INFO 20841 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 17:55:46.459  INFO 20841 --- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 17:55:46.462  INFO 20841 --- [       Thread-3] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-03-28 17:55:46.465 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table acceleration if exists
+Hibernate: drop table acceleration if exists
+2020-03-28 17:55:46.852 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table candidate if exists
+Hibernate: drop table candidate if exists
+2020-03-28 17:55:46.853 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table challenge if exists
+Hibernate: drop table challenge if exists
+2020-03-28 17:55:46.855 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table company if exists
+Hibernate: drop table company if exists
+2020-03-28 17:55:46.856 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table submission if exists
+Hibernate: drop table submission if exists
+2020-03-28 17:55:46.858 DEBUG 20841 --- [       Thread-3] org.hibernate.SQL                        : drop table users if exists
+Hibernate: drop table users if exists
+2020-03-28 17:55:46.865  INFO 20841 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-28 17:55:46.878  INFO 20841 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.475 s
+[INFO] Finished at: 2020-03-28T17:55:47-03:00
+[INFO] ------------------------------------------------------------------------
